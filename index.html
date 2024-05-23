@@ -8,15 +8,16 @@
     <title>Validar IBAN</title>
   </head>
   <body>
-    <body>
     <div class="card">
       <h1>Validador de IBAN</h1>
       <h2>Apartado A</h2>
+      <form id="ApartadoA" >
       <div class="container">
-        <input type="text" id="ibanInput" placeholder="IBAN">
-        <button id="botonValidar">Comprueba el IBAN</button>
-        <div id="resultado"></div>
+        <input type="text" id="iban" name="iban" placeholder="IBAN">
+        <button id="botonValidar">Comprobar IBAN</button>
       </div>
+    </form>
+    <div id="resultado"></div>
     </div>
     <script type="module" src="/src/validator.ts"></script>
   </body>

@@ -1,9 +1,9 @@
 export interface DatosIBAN {
   banco: string;
-  sucursal: string;
+  oficina: string;
   control: string;
   cuenta: string;
-};
+}
 
 export const BANCOS = {
   "2080": "Abanca Corporación Bancaria",
